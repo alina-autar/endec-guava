@@ -26,7 +26,7 @@ allprojects {
         compileOnly("org.jetbrains:annotations:24.1.0")
 
         implementation("it.unimi.dsi:fastutil:8.5.12")
-        implementation("com.google.guava:guava:32.1.2-jre")
+        implementation("com.google.guava:guava:33.6.0-jre")
 
         testImplementation("org.junit.jupiter:junit-jupiter:5.11.2")
         testRuntimeOnly("org.junit.platform:junit-platform-launcher")
